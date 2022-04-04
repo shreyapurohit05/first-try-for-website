@@ -1,0 +1,262 @@
+
+#main-page{
+	background-color: whitesmoke;
+}
+
+.footer{
+	background-color: whitesmoke;
+}
+
+.sp{
+	background-color: powderblue;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  } 
+ 
+  .c1{
+	  float: none;
+	  display: inline-block;
+	  width: 32.45%;
+	  padding: 0px;
+	  margin: 0;
+  }
+
+  .r1::after{
+	  content: "";
+	  clear: both;
+	  display: table ;
+  }
+
+  .c2{
+	float: none;
+	display: inline-block;
+	width: 32.45%;
+	padding: 0px;
+	margin: 000;
+}
+
+.r2::after{
+	content: "";
+	clear: both;
+	display: table ;
+}
+
+.header-top{
+	background-color: lightgray;
+}
+
+li{
+	float: left;
+	 margin-right: 10px;
+}
+
+li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    float:right;
+}
+header{
+    
+    height: auto;
+    border-bottom: 1px solid #222;
+}
+
+.header-top{
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    padding: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.navigation{width: 70%;
+	float: right;
+	line-height: 80px;
+	}
+	
+body{
+	padding 0;
+	margin: 0;
+	background-color: #fff;
+	color: #444;
+}
+	
+/* .container{
+	padding: 20px 10px 0px 20px;
+	margin: 0 auto;
+	display: flex;
+	background-image: url(img/bg.jpg);
+	position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .container:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("img/bg.jpg") no-repeat center;
+    background-size: cover;
+    filter: blur(50px);
+    z-index: -1; 
+} */
+
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.logo{
+	width:30%;
+	float: left;
+}
+
+.left{
+  /* background: url("img/bg.jpg") no-repeat center; */
+  background-size: cover;
+  height: 100%;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+.container:hover {
+    /* background-image: url("img/bg.jpg"); The image used */
+    /* background-color: #cccccc; Used if the image is unavailable*/
+    /* height: 500px; You must set a specified height*/
+    /* background-position: center; Center the image*/
+    /* background-repeat: no-repeat; Do not repeat the image*/
+    /* background-size: cover; Resize the background image to cover the entire container*/
+  }
+
+  h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+} 
+
+ h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71; 
+}
+
+.field{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+    min-height: 150px;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width:880px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    }
+}
+.a1{
+    background-color: bisque;
+    color: brown;
+    font-family: Monotype Corsiva;
+    font-size: larger;
+    image-resolution: 10px;
+}
+.full-top-header-banner{
+    color: black;
+    background-color: lightgrey;
+    background-size: cover;
+    font-size: x-small;
+    font-family: sans-serif;
+    blur
+}
+
+.nav-links{
+    background-color: rgb(245, 195, 175);
+    color: darkblue;
+}
+
